@@ -1,3 +1,84 @@
-.test{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap');
+
+#landing-section{
+    background-image: url(../images/bkg-hero-header.jpg);
+    background-size: cover;
+}
+
+#landing-title{
+    height:100vh;
+}
+
+#testimonials{
+    background-image: url(../images/bkg-testimonial.jpg);
+    background-size: cover;
+}
+
+#ourTeam{
+    background-image: url(../images/bkg-counter.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+.w-80{
+    width : 80%;
+}
+
+.w-60{
+    width : 62%;
+}
+
+.w-55{
+    width : 55%;
+}
+
+.w-10{
+    width : 10%;
+}
+
+.w-1{
+    width : 1%;
+}
+
+.fs-7{
+    font-size: 0.6rem;
+}
+
+.fs-685{
+    font-size: 0.85rem;
+}
+
+.fs-0535{
+    font-size: 3.5rem;
+}
+
+.fs-05{
+    font-size: 5rem;
+}
+
+.text-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-poppins-bold{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.text-justify-last-center {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.triangle {
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 1vw solid #694B87;
+    border-right : 1vw solid transparent;
+    border-left : 1vw solid transparent;
+}
+
+.form-control-xl{
+    height: 200px;
 }
